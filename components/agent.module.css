@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+.ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  margin: 0 auto;
+  list-style: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: -40px;
+}
+.image {
+  display: flex;
+  margin-left: -25px;
+  margin-top: -30px;
+}
+.headers {
+  display: flex;
+  margin-top: -46px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: -7px;
+}
+.name {
+  font-family: "Bebas Neue", cursive;
+  font-size: 25px;
+  color: #d5d5c8;
+}
+.listItem:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.details {
+  font-family: "Cairo", sans-serif;
+  background: -webkit-linear-gradient(#d5d5c8, #2c2c3a);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 10px;
+  margin-left: 0;
+}
